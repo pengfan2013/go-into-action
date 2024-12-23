@@ -42,6 +42,13 @@
   - interface 鸭式辩型
   - Function 重载
 
+- 操作符
+  - extends 条件类型操作符, 形式: T extends U ? X : Y
+  - keyof 索引查询操作符, 形式: keyof T
+  - typeof 类型查询操作符, 形式: typeof x
+  - instanceof 类型查询操作符, 形式: x instanceof A
+  - in 类型查询操作符, 形式: K in T
+
 - 高级类型
   - 索引类型 典型场景表达http params类型
     - 什么是字符串索引签名?
